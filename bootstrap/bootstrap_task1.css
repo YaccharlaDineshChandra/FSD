@@ -1,0 +1,18 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.dd-r1-c1{
+	border: 2px solid blue;
+	background-color: skyblue;
+	padding: 2px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.dd-l1{
+	float: right;
+}
+.dd-l2{
+	float: left;
+}

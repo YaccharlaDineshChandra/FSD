@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Java Script Introduction</h1>
+	<script type="text/javascript" src="../js/external.js"></script>
+	<script type="text/javascript">
+		var name ='pavan';
+		name+=' sri sai'
+		document.write(name,"<br>")
+		var na ='one';
+		document.write(na.length+ 
+
+			'<br>')
+		na +=' two'
+		document.write(na.length+'<br>')
+		var s='reka';
+		s+='+ramya'
+		s+='&geetha'
+		document.write(s)
+		var arr=[" pavan"," dinesh"," vinay", 1, true];
+		document.write("<br>"+typeof(arr))
+		document.write("<br>"+arr)
+		document.write(arr[0])
+		var arr1=[" pavan"," sri"," sai"]
+		document.write("<br>"+arr1[0]+arr1[1]+arr1[2]+'<br>')
+	</script>
+	<script type="text/javascript">
+		//object
+		var trainees =[
+			 {
+			name:'hari ',
+			rollno: 1234,
+			college: ' AEC',
+			branch: ' cse',
+		},
+		{
+			name:'kiran ',
+			rollno: 5555,
+			college: ' ACET',
+			branch: ' Ece',
+		},
+		{
+			name:'dinesh ',
+			rollno: 5285,
+			college: ' ACoE',
+			branch: ' Ece',
+		},
+		{
+			name:'vinay ',
+			rollno: 5055,
+			college: ' AEC',
+			branch: ' Ece',
+		}
+		]
+		// let text = "";
+		// for (let i = 0; i < trainees.length; i++) {
+		//   text += trainees[i].name;
+		//   text += trainees[i].rollno;
+		//   text += trainees[i].branch;
+		//   text += trainees[i].college+'<hr>';
+		// }
+
+		let text ="";
+		for (let i =0;i<trainees.length;i++){
+			for (let x in trainees[i]){
+				document.write(trainees[i][x])  }
+				document.write("<br>")	
+		}
+		// document.write(text)
+		// document.write(trainees[1].name,trainees[1].rollno,trainees[1].college,trainees[1].branch)
+	</script>
+</body>
+</html>

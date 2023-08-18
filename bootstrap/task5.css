@@ -1,0 +1,44 @@
+.a{
+	background-color: white;
+	height: 100px;
+	margin: 20px;
+}
+
+.b{
+	background-color: white;
+	height: 100px;
+	margin: 20px;
+}
+
+.c{
+	background-color: white;
+	height: 100px;
+	margin: 20px;
+}
+
+.d{
+	background-color: white;
+	height: 100px;
+	margin: 20px;
+}
+
+.dd{
+	border-radius: 50%;
+	border: 2px solid red;
+	height: 100px;
+	width: 100px;
+	background-color: whitesmoke;
+	
+	
+}
+
+.body{
+	background-color: whitesmoke;
+
+}
+
+.h3{
+	width: 40%;
+	display: inline;
+
+}
